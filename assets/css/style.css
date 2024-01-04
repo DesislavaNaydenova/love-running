@@ -23,10 +23,11 @@ header {
     background-color: #ffffff;
     padding: 0 1rem;
     position: fixed;
-    z-index: 99 ;
+    z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a ;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
+
 header a {
     text-decoration: none;
     color: inherid;
@@ -34,22 +35,39 @@ header a {
 
 h1 {
     font-family: "Oswald", sans-serif;
-    text-transform: uppercase ;
+    text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
 }
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
 }
-#menu > li {
-    margin-bottom: 1em ;
+
+#menu>li {
+    margin-bottom: 1em;
 
 }
-.active {
-    border-bottom: solid #3a3a3a ;
+
+/* nav bar styles and drop down toggler*/
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
+    left: 0;
+    display: none;
+
 }
+
+
+.active {
+    border-bottom: solid #3a3a3a;
+}
+
 /* Main content */
 main {
     background-color: lightblue;
