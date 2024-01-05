@@ -274,6 +274,14 @@ main {
     color: #3a3a3a;
 }
 
+/* Media query: large or landskape phones (576px and larger)*/
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
 /* Media query: tablets and larger (768px and larger)*/
 @media screen and (min-width: 768px) {
 
@@ -334,6 +342,12 @@ main {
         align-self: flex-end;
     }
 
+    /* Galery*/
+    #photos {
+        column-count: 3;
+
+    }
+
 }
 
 /* Media query: large devices (992px and larger)*/
@@ -342,6 +356,11 @@ main {
     #menu a:hover {
 
         border-bottom: solid #3a3a3a;
+    }
+
+    * Galery*/ #photos {
+        column-count: 4;
+
     }
 }
 
