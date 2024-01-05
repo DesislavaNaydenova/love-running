@@ -217,6 +217,33 @@ main {
     justify-content: center;
 }
 
+/* Meet up times section*/
+#times {
+    background: url('../images/dublin-city.webp')no-repeat center / cover;
+    /* handels responsivity without need of media query*/
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0 0 0 .6);
+    padding: 15px;
+    text-align: center;
+    /* this will not wrap on screens with less than 400px wide
+    each div will expand to fill the available space in a raw*/
+    flex-basis: 200px;
+    flex-grow: 1;
+    /*creates a grid to meetup the dives over the background img*/
+    border: 2px solid white;
+}
+
+#times h3 {
+    /*overwrite the setting for the colour given in the main settings*/
+    color: #fafafa;
+
+}
+
 /* Footer */
 #social-networks {
     text-align: center;
